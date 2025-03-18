@@ -1,16 +1,70 @@
-# Arquivos Python compilados
+# Python compiled files
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-# Ambiente virtual
+# Virtual environment
 venv/
 .venv/
-.env
+env/
+.env/
 
-# Configurações do editor
+# Environment variables
+*.env
+*.env.local
+.envrc
+.pdm.toml
+poetry.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor configurations
 .vscode/
 .idea/
+*.swp
+*.swo
+*.swn
 
-# Logs e arquivos temporários
+# Logs and temp files
 *.log
+*.out
+*.tmp
+*.bak
+
+# Dependency management
+Pipfile
+Pipfile.lock
+poetry.lock
+poetry.toml
+requirements.txt
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Pytest and coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.pyc.cover
+
+# Build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Ansible
+*.retry
