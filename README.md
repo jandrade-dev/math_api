@@ -53,7 +53,7 @@ pip install -r requirements.txt
 uvicorn app.api.main:app --reload
 ```
 
-A API estará disponível em **[](http://127.0.0.1:8000)** .
+A API estará disponível em **[127.0.0.1:8000](http://127.0.0.1:8000)** .
 
 ## 📌 Endpoints Disponíveis
 
